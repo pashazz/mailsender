@@ -143,7 +143,7 @@ def sendmail(s : MySocket, mail_from, to, fakefrom, faketo, subject, contents):
             s.send(b'\r\n')
 
         s.send('--{0}'.format(bound))
-        s.send(b'Pavel Borisov, HSE')
+        s.send(b'Boobooo')
 
     s.send(b'\r\n.\r\n')
 
